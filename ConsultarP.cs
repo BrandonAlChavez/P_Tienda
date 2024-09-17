@@ -61,7 +61,7 @@ namespace Tienda
                         nombre = dtgvProductos.Rows[fila].Cells[1].Value.ToString();
                         descripcion = dtgvProductos.Rows[fila].Cells[2].Value.ToString();
                         precio = double.Parse(dtgvProductos.Rows[fila].Cells[3].Value.ToString());
-                        ConsultarP frap = new ConsultarP();
+                        Form1 frap = new Form1();
                         frap.ShowDialog();
                         dtgvProductos.Visible = false;
                     }
